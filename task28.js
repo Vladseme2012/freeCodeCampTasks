@@ -1,12 +1,18 @@
-// 1.Step 32
-// You are now ready to start building your pyramid generator. Your character variable will serve as the building block for the pyramid.
+// 1.Step 33
+// To generate a pyramid, you will need to create multiple rows. When you have to perform a task repeatedly until a condition is met, you will use a loop. There are many ways to write a loop.
 
-// "Hello" might not work very well for that. Change the value of character to be the hash character "#".
+// You are going to start with a basic for loop. for loops use the following syntax:
+
+// Example Code
+// for (iterator; condition; iteration) {
+//   logic;
+// }
+// In the upcoming steps, you'll explore each component of a loop in detail. For now, construct a for loop that includes the terms "iterator", "condition", and "iteration" for the three components. Keep the loop body, the section within the curly braces {}, empty.
 
 // The solution:
-const character = '#';
-const count = 8;
-const rows = [];
+for ('iterator'; 'condition'; 'iteration') {}
 // running tests
 // tests completed
-// 27% complete
+// console output
+// Potential infinite loop detected on line 4. Tests may be failing because of this.
+// 28% complete
