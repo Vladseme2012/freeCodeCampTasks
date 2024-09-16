@@ -16,5 +16,4 @@ for (const row of rows) {
 }
 // running tests
 // tests completed
-// console output
 // 35% complete
